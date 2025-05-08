@@ -8,8 +8,6 @@ const armBottoms = Array.from(dude.querySelectorAll(".arm-bottom"));
 const content = document.querySelector(".content");
 const arrowEl = document.querySelector(".arrow-animated");
 
-const bgm = document.getElementById("bgm");
-
 gsap.set(arms, {
     svgOrigin: "180 58"
 });
@@ -166,17 +164,3 @@ gsap.timeline({
 window.addEventListener("resize", () => {
     ScrollTrigger.refresh();
 });
-
-
-// ---------------------------------------------
-// ONLY FOR CODEPEN PREVIEW
-
-gsap.set(window, {
-    scrollTo: 0
-})
-gsap.timeline({})
-    .to(window, {
-        duration: 1,
-        scrollTo: .3 * window.innerHeight,
-        ease: "power1.inOut"
-    });
