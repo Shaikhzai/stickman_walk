@@ -33,6 +33,7 @@ html, body {
     background-repeat: no-repeat;    /* prevents tiling */
     width: 100vw;
     height: 100vh;
+    z-index: -1;
    /*  background-color: #000;    */       /* fallback color for empty space */
   }
   
@@ -65,13 +66,13 @@ svg {
     background-color: #E2D03E;
 }
  */
-.content-section:nth-child(2) {
+/* .content-section:nth-child(2) {
     background-color: #4DAE85;
 }
 
 .content-section:nth-child(3) {
     background-color: #ED5D53;
-}
+} */
 
 .content-section:nth-child(4) {
 }
