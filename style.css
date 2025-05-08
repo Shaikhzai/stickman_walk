@@ -61,10 +61,10 @@ svg {
     font-family: sans-serif;
 }
 
-.content-section:nth-child(1) {
+/* .content-section:nth-child(1) {
     background-color: #E2D03E;
 }
-
+ */
 .content-section:nth-child(2) {
     background-color: #4DAE85;
 }
