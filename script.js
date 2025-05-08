@@ -114,7 +114,7 @@ const numberOfCycles = Math.ceil(3 * window.innerWidth / window.innerHeight)
 gsap.timeline({
     scrollTrigger: {
         trigger: ".page",
-        scrub: true,
+        scrub: 2,
         start: "0% 0%",
         end: "100% 100%",
     },
